@@ -140,9 +140,9 @@ agents/openai.yaml   # Agent skill definition
 SKILL.md             # Full workflow instructions
 ```
 
-## Install as Agent Skill
+## Usage as Agent Skill
 
-This skill is installed under `/home/azzar/.agents/skills/Blotcat-illustration` and registered in the agent's available skills list. Invoke it with `$blotcat-illustrations` in any prompt.
+Invoke with `$blotcat-illustrations` in any prompt when the skill is installed and registered in the agent's available skills list.
 
 ## License
 
