@@ -1,0 +1,6 @@
+interface:
+  display_name: "Blotcat Illustrations"
+  short_description: "Generate quirky, clean, Blotcat IP-based body illustrations for articles"
+  default_prompt: "Use $blotcat-illustrations to design and generate a few quirky Blotcat body illustrations for this article."
+policy:
+  allow_implicit_invocation: true
