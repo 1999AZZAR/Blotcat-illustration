@@ -12,7 +12,7 @@ It looks like an explanatory sketch casually drawn on white paper by someone who
 - Pure white background: no beige, warm gray, paper texture, gradients, shadows, noise, or retro paper feel.
 - Mostly black hand-drawn line art: thin lines, slightly wobbly, not mechanical, not vector-style, no thick strokes.
 - Abundant white space: the subject should take up about 40%-60% of the canvas, with at least 35% blank space, preferably leaving a large quiet area.
-- Sparse handwritten annotations: at most 5-8 spots, 2-8 words each.
+- Sparse handwritten annotations: target 3-5 labels, with 8 as a hard maximum; use 2-8 words each.
 - One image should explain only one core action, structure, state, or metaphor.
 - Express the structure naturally; do not write the structure type name on the image.
 

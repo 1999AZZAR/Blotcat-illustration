@@ -102,7 +102,20 @@ Located in `assets/examples/`. These exist for style calibration only — do not
 | `19-signal-vs-noise.png` | Signal vs Noise — filtering relevant from irrelevant |
 | `20-the-last-mile.png` | The Last Mile — final delivery or completion gap |
 
-See `assets/examples/prompts.md` for the exact prompts that generated these.
+See `assets/examples/prompts.md` for reusable invocation examples.
+
+## Character Sheets
+
+Located in `assets/character-sheets/`. These are optional character-consistency references, not article illustration examples.
+
+| File | Calibration Use |
+|---|---|
+| `operator_action.png` | Actions and movement |
+| `operator_duty.png` | Operator roles and duties |
+| `operator_expression.png` | Deadpan facial expression |
+| `operator_pose.png` | Silhouette and poses |
+
+Consult only the relevant sheet when needed. Do not copy sheet layouts, labels, or pose grids into generated article illustrations.
 
 ## Quality Checklist
 
@@ -113,7 +126,7 @@ Before delivering, verify:
 - [ ] New metaphor for this article (not copied from examples)
 - [ ] Subject occupies ~40-60% of canvas, >=35% white space
 - [ ] One image = one core structure
-- [ ] 5-8 short handwritten labels max
+- [ ] Target 3-5 short handwritten labels; never exceed 8
 - [ ] No top-left title like "Workflow / System Architecture"
 - [ ] Not PPT-like, not a formal flowchart, not cute
 - [ ] Orange for flow only, red for problems/results, blue for notes
@@ -135,6 +148,7 @@ Failing any of these: regenerate or locally edit.
 
 ```
 assets/examples/     # Style calibration images + prompts.md
+assets/character-sheets/ # Optional Blotcat character calibration
 references/          # Style DNA, Blotcat IP, composition patterns, prompt template, QA checklist
 agents/openai.yaml   # Agent skill definition
 SKILL.md             # Full workflow instructions

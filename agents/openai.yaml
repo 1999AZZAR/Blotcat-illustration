@@ -1,16 +1,6 @@
-about: |
-  Generate 16:9 horizontal body text illustrations for English articles. Uses Blotcat — a deadpan solid-black cat — as the core action subject in hand-drawn, pure-white-background scenes. Turns abstract concepts (judgments, workflows, structures, states, metaphors) into clean, quirky, sparse-annotation visuals. Not for commercial illustration, PPT infographics, or cute cartoons.
 interface:
   display_name: "Blotcat Illustrations"
-  short_description: "Generate quirky, clean, Blotcat IP-based body illustrations for articles"
+  short_description: "Create clean, quirky Blotcat article illustrations"
   default_prompt: "Use $blotcat-illustrations to design and generate a few quirky Blotcat body illustrations for this article."
 policy:
   allow_implicit_invocation: true
-tags:
-  - illustration
-  - article-illustration
-  - body-text
-  - hand-drawn
-  - blotcat
-  - content-creation
-  - visual-thinking

@@ -6,6 +6,15 @@ Blotcat is the fixed visual IP for body text illustrations.
 
 By default, Blotcat must appear in every image. Blotcat is not a mascot, not a sticker, not a cute decoration, but a bizarre worker seriously participating in the operation of the system.
 
+When character anatomy or behavior is ambiguous, consult only the relevant file in `assets/character-sheets/`:
+
+- `operator_action.png`: action and movement calibration.
+- `operator_duty.png`: operator-role calibration.
+- `operator_expression.png`: deadpan expression calibration.
+- `operator_pose.png`: silhouette and pose calibration.
+
+Use these sheets as character references, not composition templates. Never reproduce a sheet grid, labels, or multiple-pose layout in an article illustration.
+
 ## Appearance
 
 - A small, minimalist solid-black cat.
@@ -27,17 +36,13 @@ By default, Blotcat must appear in every image. Blotcat is not a mascot, not a s
 
 Make Blotcat the subject of the core action:
 
-- Carrying materials.
-- Pulling strings to converge information sources.
-- Stuck in a breakpoint.
-- Operating a "judgment" lever inside a machine.
-- Transforming into a filtering funnel.
-- Cutting up a "material fish".
-- Stamping handoff scripts.
-- Leading a handoff path.
-- Holding a warning sign for pitfalls.
-- Reaching out from a hole but failing to catch content.
-- Moving bricks, building bridges, opening doors, sorting, or recording on the side.
+- Moving, sorting, weighing, joining, repairing, or transforming physical objects.
+- Operating a simple low-tech device that embodies the article's core mechanism.
+- Physically struggling with a bottleneck, gap, overload, or competing force.
+- Building, opening, catching, carrying, recording, or redirecting something essential.
+- Causing the key transition or result rather than observing it from the side.
+
+Choose an action from the current article's meaning. Do not reuse a distinctive action or object from an example merely because it appears in this library.
 
 ## Restrictions
 

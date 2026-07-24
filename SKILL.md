@@ -1,6 +1,6 @@
 ---
 name: blotcat-illustrations
-description: Generate English body text illustrations. Used when the user requests "quirky", "Blotcat", "hand-drawn", "body text illustration", "article illustration", "illustration suggestions", "shot list", or "remove title/edit image" for English articles, posts, blogs, Notion docs, workflows, methodology, processes, structures, states, metaphors, or viewpoints; defaults to using the Blotcat IP, pure white hand-drawn style, minimal red/orange/blue annotations, and a clean but imaginative visual style.
+description: Plan, generate, and edit Blotcat-style body illustrations for English articles, posts, blogs, and Notion documents. Use when the user explicitly mentions Blotcat or requests article/body-text illustration strategy, shot lists, generation, or edits in a sparse hand-drawn explanatory style. Defaults to the Blotcat IP, pure white background, black line art, and minimal red/orange/blue English annotations.
 ---
 
 # Blotcat Quirky Body Illustrations
@@ -20,6 +20,7 @@ Read them as needed for the task, do not cram everything into the context at onc
 - `references/composition-patterns.md`: Structure types, original metaphor methods, and anti-copying rules.
 - `references/prompt-template.md`: Single image generation prompt template.
 - `references/qa-checklist.md`: Post-generation inspection and iteration rules.
+- `assets/character-sheets/`: Optional Blotcat anatomy, action, duty, expression, and pose calibration. Consult only when character consistency is uncertain; do not copy a full sheet or its layout into an article illustration.
 - `assets/examples/`: Only for low-frequency visual calibration, do not enter the default generation path. Do not copy the compositions, objects, or annotations of these examples.
 
 ## Workflow
@@ -51,14 +52,14 @@ Default to 4-8 images. 1-3 images for short articles; do not easily exceed 9 ima
 
 ### 3. Generate Single Images
 
-If the user explicitly asks to "generate / output / make images / help me generate", do not stop and wait for confirmation; use the built-in `image_gen` to generate each image individually. Do not combine multiple images into one.
+If the user explicitly asks to generate images, use the available raster image-generation capability, such as the `imagegen` skill or an equivalent image generation/editing tool. Generate each image individually; do not combine multiple images into one. If no image-generation capability is available, provide the completed prompts and clearly state that generation could not run in the current environment.
 
 Each image only explains one core structure. The prompt must contain:
 
 - 16:9 horizontal English body text illustration
 - Pure white background
 - Black hand-drawn line art
-- Sparse red/orange/blue handwritten English annotations
+- Target 3-5 sparse red/orange/blue handwritten English annotations; never exceed 8
 - Abundant white space
 - Blotcat as the core action subject
 - Prohibit PPT, commercial illustrations, childish/cute, complex architecture, top-left category titles
@@ -67,7 +68,7 @@ Do not replicate past examples. Examples only provide style density and Blotcat'
 
 ### 4. Check and Iterate
 
-After generation, check against `references/qa-checklist.md`. If the following problems occur, prioritize regenerating or local editing:
+After generation, check against `references/qa-checklist.md`. For a localized defect, edit the source image with the available raster image tool and explicitly preserve all unaffected regions. Regenerate only when the composition, metaphor, or character role is fundamentally wrong. Fix these problems before delivery:
 
 - Blotcat is just a decoration
 - The image is too full
